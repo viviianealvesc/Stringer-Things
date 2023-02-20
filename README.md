@@ -1,2 +1,2 @@
-# Stringer Things
+# StringerThings
  Meu projeto responsivo
