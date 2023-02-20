@@ -151,9 +151,9 @@ header {
     }
  }
 
- @media (max-width: 200px) {
+ @media (max-width: 100px) {
     #conteudo-principal-escrito {
-        width: 240px;
+        width: 200px;
     }
 
     .imagem-lateral {
