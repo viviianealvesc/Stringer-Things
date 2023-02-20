@@ -143,16 +143,6 @@ header {
 
  @media (max-width: 280px) {
     #conteudo-principal-escrito {
-        width: 240px;
-    }
-
-    .imagem-lateral {
-        display: none;
-    }
- }
-
- @media (max-width: 100px) {
-    #conteudo-principal-escrito {
         width: 200px;
     }
 
@@ -160,6 +150,7 @@ header {
         display: none;
     }
  }
+
 
  @media (max-width: 1024px) {
     #conteudo-principal-escrito {
