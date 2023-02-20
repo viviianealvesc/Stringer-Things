@@ -1,2 +1,2 @@
-# StringerThings
+# Stringer.Things
  Meu projeto responsivo
