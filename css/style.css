@@ -152,15 +152,6 @@ header {
     }
  }
 
- @media (max-width: 200px) {
-    #conteudo-principal-escrito {
-        width: 240px;
-    }
-
-    .imagem-lateral {
-        display: none;
-    }
- }
 
  @media (max-width: 1024px) {
     #conteudo-principal-escrito {
