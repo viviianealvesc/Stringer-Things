@@ -86,6 +86,14 @@ header {
 
 #conteudo2 h2 {
     color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#conteudo2 p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
 }
 
 
@@ -94,9 +102,10 @@ header {
     display: flex;
     overflow-x: scroll;
     padding: 24px;
-    width: 1300px;
+    width: 650px;
     scroll-snap-type: x mandatory;
     scroll-padding: 24px;
+    margin: 0 auto;
 }
 
 #atores .atores-informacoes {
@@ -110,19 +119,15 @@ header {
 
 
 /*Responsividade*/
-@media all and (max-width: 768px) {
-    #conteudo-principal-escrito {
-        width: 400px;
-        margin-top: 150px;
-    }
-
-    .imagem-lateral {
-      width: 280px;
-    }
-
+@media all and (max-width: 520px) {
     .cabecalho {
         display: block;
         text-align: center;
+    }
+
+    #conteudo1 {
+        display: inline-block;
+        
     }
     
 
@@ -132,95 +137,30 @@ header {
         margin-top: 10px;
     }
 
-    #atores {
-        width: 650px;
-    }
-
-    .atores-informacoes img {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    #conteudo-principal-escrito  {
-        padding: 30px;
-        margin-bottom: 20px;
-    }
-
-    #conteudo2 h2 {
-        display: inline-block;
-        margin: 10px; 
-        font-size: 20px;
-    }
-}
-
-@media all and (max-width: 480px) {
     #conteudo-principal-escrito {
-        width: 400px;
-        margin-top: 150px;
-    }
-
-    .imagem-lateral {
-      display: none;
-    }
-
-    .cabecalho {
-        display: block;
-        text-align: center;
-    }
-
-    .navbar {
-        width: 230px;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-
-    #atores {
         width: 300px;
-    }
-
-    .atores-informacoes img {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    #conteudo-principal-escrito  {
-        padding: 30px;
-        margin-bottom: 20px;
-    }
-
-    #conteudo2 h2 {
-        display: inline-block;
-        margin: 10px; 
-        font-size: 20px;
-    }
-}
-
-@media all and (max-width: 820px) {
-    #conteudo-principal-escrito {
-        width: 400px;
         margin-top: 150px;
     }
 
     .imagem-lateral {
       width: 300px;
-    }
-
-    .cabecalho {
-        
-        text-align: center;
-    }
-
-    .navbar {
-        width: 230px;
-        margin-top: 10px;
+      margin: 0;
+      margin-bottom: 30px;
+      position: relative;
+      left: 50px;
     }
 
     #atores {
-        width: 750px;
+        width: 90px;
+    }
+
+    .atores-informacoes {
+        width: 90px;
+
     }
 
     .atores-informacoes img {
-        width: 100px;
+        width: 90px;
         margin-bottom: 10px;
     }
 
@@ -230,11 +170,16 @@ header {
     }
 
     #conteudo2 h2 {
-        display: inline-block;
-        margin: 10px; 
+        text-align: center;
         font-size: 20px;
     }
+
+    #atores {
+        width: 250px;
+        margin: 0 auto;
+    }
 }
+
 
 
 
