@@ -138,12 +138,12 @@ header {
     }
 
     #conteudo-principal-escrito {
-        width: 320px;
+        width: 300px;
         margin-top: 150px;
     }
 
     .imagem-lateral {
-      width: 300px;
+      width: 280px;
       margin: 0;
       margin-bottom: 30px;
       position: relative;
@@ -168,6 +168,7 @@ header {
         padding: 30px;
         margin-bottom: 20px;
     }
+
 
     #conteudo2 h2 {
         text-align: center;
