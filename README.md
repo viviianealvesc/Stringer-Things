@@ -1,4 +1,4 @@
-# Stringer.Things
+# Stringer Things
  Meu projeto responsivo
 
 
